@@ -1,0 +1,95 @@
+body {
+	background-color: #777777;
+	margin: 20px;
+}
+
+header {
+	/*finaly its looks right*/
+	background-color: #ebebeb;
+	margin: auto;
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+
+nav {
+	background-color: #ebebeb;
+	margin: auto;
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+
+section {
+	background-color: #ebebeb;
+	margin: auto;
+	height: 300px;
+	width: 48%;
+	text-align: center;
+	vertical-align: center;
+	line-height: 60px;
+	margin-bottom: 10px;
+	flex-flow: left;
+	padding-bottom: 5px;
+	transform: translate(-33.5%, 0);
+	/*tran tran ?-- width */
+}
+
+section article {
+	background-color: #777777;
+	margin: auto;
+	height: 200px;
+	width: 80%;
+	margin-bottom: 10px;
+	padding-bottom: 5%;
+	
+}
+
+
+p {
+	background-color: #ebebeb;
+	margin: auto;
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+
+aside {
+	background-color: #ebebeb;
+	margin: auto;
+	height: 303px;
+	width: 31%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 10px;
+	flex-flow: right;
+	transform: translate(79%, -104%);
+	/*tran tran*/
+}
+
+footer {
+	background-color: #ebebeb;
+	margin: auto;
+	height: 60px;
+	width: 80%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	margin-bottom: 10px;
+	transform: translate(0%, -520%); /* this*/
+
+}
+
+/*need to change the size of header, nav and footer to 100%,
+ than give the body a margin of about 29%, maybe i can float
+ /*or flow the section and aside*/
